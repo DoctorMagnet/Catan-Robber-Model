@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+        <meta charset="UTF-8">
+        <title>ECLR Calculator</title>
+        <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+        <div class="container">
+                <h3>ECLR Calculator</h3>
+                <div class="form-group">
+                        <label for="numCardsOriginal">Initial # of Cards</label>
+                        <input type="number" id="numCardsOriginal" value="10" min="0">
+                </div>
+                <div class="form-group">
+                        <label for="rg1">Dots Yielding 1 Resource</label>
+                        <input type="number" id="rg1" value="10" min="0">
+                </div>
+                <div class="form-group">
+                        <label for="rg2">Dots Yielding 2 Resources</label>
+                        <input type="number" id="rg2" value="5" min="0">
+                </div>
+                <div class="form-group">
+                        <label for="rg3">Dots Yielding 3 Resources</label>
+                        <input type="number" id="rg3" value="0" min="0">
+                </div>
+                <div class="form-group">
+                        <label for="rg4">Dots Yielding 4 Resources</label>
+                        <input type="number" id="rg4" value="0" min="0">
+                </div>
+                <div class="form-group">
+                        <label for="rg5">Dots Yielding 5 Resources</label>
+                        <input type="number" id="rg5" value="0" min="0">
+                </div>
+                <button id="calculateButton">Calculate ECLR</button>
+                <div id="elrOutput">ECLR: </div>
+        </div>
+
+        <script src="script.js"></script>
+</body>
+
+</html>
